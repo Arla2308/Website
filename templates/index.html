@@ -1,0 +1,14 @@
+{% extends "base.html" %}  <!-- Warisi dari base.html -->
+
+{% block title %}Beranda - Simple Wiki{% endblock %}  <!-- Ganti title -->
+
+{% block content %}
+    <h2>Daftar Artikel</h2>
+    <ul>
+        {% for article in articles %}  <!-- Loop untuk setiap artikel di list articles -->
+            <li>
+                <a href="/article/{{ article.id }}">{{ article.title }}</a>  <!-- Link ke detail artikel dengan ID -->
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
