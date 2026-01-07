@@ -1,9 +1,0 @@
-{% extends "base.html" %}  <!-- Warisi dari base.html -->
-
-{% block title %}{{ article.title }} - Simple Wiki{% endblock %}  <!-- Ganti title dengan judul artikel -->
-
-{% block content %}
-    <h2>{{ article.title }}</h2>  <!-- Tampilkan judul artikel -->
-    <p>{{ article.content }}</p>  <!-- Tampilkan isi artikel -->
-    <a href="/">Kembali ke Beranda</a>  <!-- Link kembali -->
-{% endblock %}
