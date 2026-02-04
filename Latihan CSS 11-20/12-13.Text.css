@@ -1,0 +1,45 @@
+h1{
+    font-family: Georgia;
+    font-size: xx-large;
+    font-weight: normal;
+    text-transform: uppercase; /* Mengubah text besar semua */
+    text-align: center;
+    color: brown;
+    text-shadow: 10px 5px 5px black;
+    word-spacing: 0.5pm;
+    letter-spacing: 5px;
+}
+
+.credit{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize; /* Mengubah text depannya besar semua */
+    text-align: center;
+}
+
+.tautan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-decoration:none;
+    text-transform: lowercase; /* Jadi kecil semua */
+}
+
+a.tautan:hover{
+    color: deeppink; /* akan berubah jika disentuh */
+}
+
+a.tautan:active{
+    color: darkcyan; /* akan berubah saat di klik */
+}
+
+a.tautan:visited{
+    color: darkgreen; /* akan hijau jika sudah di klik */
+}
+p.intro{
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    text-align: justify;
+}

@@ -1,0 +1,34 @@
+/* color */
+
+/* foreground color */
+
+/* color name */
+
+h1 {
+    color: darkblue;
+}
+
+/* hex code */
+
+h2 {
+    color: #ee3e80
+}
+
+/* rgb value */
+
+p {
+    color: rgb(100, 162, 14)
+}
+
+/* bacground color */
+
+body{
+    background-color: #382525;
+}
+
+h1{
+    background-color: rgb(173, 163, 147);
+}
+h2{
+    background-color: rgb(188, 179, 165);
+}

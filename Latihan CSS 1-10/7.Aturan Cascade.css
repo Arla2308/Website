@@ -1,0 +1,36 @@
+* {
+    font-family: Calibri;
+}
+
+/* Aturan Terakhir */
+i {
+    color: cadetblue;
+}
+i {
+    color: red; /*yang diambil ini*/
+}
+
+/* spesific */
+b {
+    color: blue; /* level 1 */
+}
+
+p b {
+    color: rgb(241, 28, 212) !important; /* level 3, akan merubah semuanya */
+}
+p b{
+    color: rgb(33, 228, 212); /* level 2 */
+}
+
+p b{
+    font-size: 150%; /* lebih spesific dari # */
+}
+/* studi kasus */
+
+p {
+    font-size: 100%;
+}
+
+p#pendahuluan{
+    font-size: 75%; /* Ini lebih spesific */
+}
