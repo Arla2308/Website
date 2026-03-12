@@ -1,0 +1,36 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 25px;
+    color: crimson;
+}
+
+ol {
+    list-style-type: lower-roman; /* list roman */
+    list-style-type: upper-latin; /* list huruf besar */
+    list-style-type: lower-latin; /* list huruf kecil */
+    list-style-type: upper-roman; /* list roman */
+    list-style-type: lower-alpha; /* list huruf kecil */
+    list-style-type: decimal; /* list angka */
+}
+
+ul {
+    width: 400px;
+}
+
+ul li {
+    margin: 10px;
+    /* list posisi */
+    list-style-position: inside; /* Jadi ke dalam */
+    list-style-position: outside; /* normal */
+}
+
+ol.singkat {
+    list-style: lower-greek inside;
+}
+
+ul.singkat {
+    list-style: circle; /* bulat */
+}
